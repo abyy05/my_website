@@ -2103,6 +2103,23 @@ input, select, textarea {
 			display: block;
 		}
 
+			.image.static-thumb {
+    		text-align: center;
+		}
+
+    		.image.static-thumb:before {
+        		display: none; /* Removes the overlay */
+    		}
+
+    		.image.static-thumb:after {
+        		display: none; /* Removes the 'View' text */
+    		}
+
+    		.image.static-thumb img {
+        		border-radius: 0.35em;
+        		display: block;
+    		}
+
 		.image.left {
 			float: left;
 			margin: 0 1.5em 1em 0;
